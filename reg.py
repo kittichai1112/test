@@ -96,3 +96,48 @@ PLL1_3_CONFIG = 0x80
 PACR1_CONFIG  = 0x01
 PACR2_CONFIG  = 0x07
 SFCTL_CONFIG  = 0x01
+
+init_register_list = {
+    MAIN_ADDR: 0,
+    ADC0_ADDR: 0,
+    PACR1_ADDR: 0,
+    PACR2_ADDR: 0,
+    SFCTL_ADDR: 0,
+    SADC_CTRL_ADDR:0,
+    CSI_0_ADDR:0,
+    CSI_1_ADDR:0,
+    CSI_2_ADDR:0,
+    CSCI_ADDR:0,
+    CSDS_0_ADDR:0,
+    CSDS_1_ADDR:0,
+    CSDS_2_ADDR:0,
+    CSCDS_ADDR:0,
+    CSU1_0_ADDR:0,
+    CSU1_1_ADDR:0,
+    CSU1_2_ADDR:0,
+    CSC1_ADDR:0,
+    CSC2_ADDR:0,
+    CSC3_ADDR:0,
+    CSC4_ADDR:0,
+    CCR0_ADDR:0,
+    CCR1_ADDR:0,
+    CCR2_ADDR:0,
+    CCR3_ADDR:0,
+
+    PLL1_0_ADDR:0,
+    PLL1_1_ADDR:0,
+    PLL1_3_ADDR:0,
+    PLL1_4_ADDR:0,
+    PLL1_5_ADDR:0,
+    PLL1_6_ADDR:0,
+    PLL1_7_ADDR:0,
+    PLL2_7_ADDR:0,
+    PLL3_7_ADDR:0,
+    PLL4_7_ADDR:0,
+    RFT1_ADDR:0,
+    NONE_ADDR:0,
+
+}
+
+
+
